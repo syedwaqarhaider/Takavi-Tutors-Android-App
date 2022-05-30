@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Abount Us" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="How its Work" />
+
+
+        <item
+            android:id="@+id/nav_tutor_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_edit_tutor_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Edit Profile" />
+
+
+
+        <item
+            android:id="@+id/nav_tutor_session"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Create Sessions" />
+        <item
+            android:id="@+id/nav_tutor_session_history"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sessions History" />
+
+
+
+        <item
+            android:id="@+id/nav_tutor_payment_history"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Payment History" />
+
+
+        <item
+            android:id="@+id/nav_tutor_rewards"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="FAQs" />
+
+        <item
+            android:id="@+id/nav_marketeplace"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Marketeplace" />
+        <item
+            android:id="@+id/nav_tutor_calendar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Calendar" />
+
+        <item
+            android:id="@+id/nav_tutor_contact_us"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Contact Us" />
+
+
+    </group>
+
+
+</menu>

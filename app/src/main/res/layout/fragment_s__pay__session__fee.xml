@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.paysessionfee.S_Pay_Session_Fee">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginRight="20dp"
+
+        android:background="@drawable/layoutborderforprofile"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/Red"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/txtStudentName"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/layoutborderforprofile"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/txtStudentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/layoutborderforprofile"
+
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Number"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/layoutborderforprofile"
+
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/layoutborderforprofile"
+
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+
+                android:layout_marginRight="10dp"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/layoutborderforprofile"
+
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+
+                android:layout_marginRight="10dp"/>
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/layoutborderforprofile"
+
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+
+                android:layout_marginRight="10dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expiray Date"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/layoutborderforprofile"
+                    android:hint="MM/YY"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CVC Code"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/layoutborderforprofile"
+                    android:hint="CVC"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Pay Tip to Tutor"/>
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/delete"
+        android:background="@drawable/btnbackground"
+        android:text="Pay $54.00"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blueBorder" />
+
+
+
+</LinearLayout>

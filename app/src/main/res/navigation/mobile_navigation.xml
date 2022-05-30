@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.takavi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.takavi.ui.aboutus.SAboutUs"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/s_about_us" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.takavi.ui.howitswork.SHowItsWork"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/s_how_its_works" />
+
+    <fragment
+        android:id="@+id/nav_findtutor"
+        android:name="com.example.takavi.ui.findtutors.S_Find_Tutors"
+        android:label="Find a Tutor"
+        tools:layout="@layout/fragment_s__find__tutors" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.takavi.ui.studentprofile.S_Profile"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_s__profile" />
+
+    <fragment
+        android:id="@+id/nav_edit_profile"
+        android:name="com.example.takavi.ui.studenteditprofile.S_Edit_Profile"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_s__edit__profile" />
+
+    <fragment
+        android:id="@+id/nav_favourite_Tutors"
+        android:name="com.example.takavi.ui.favourite_tutors.s_favourite_tutors"
+        android:label="Favorite Tutors"
+        tools:layout="@layout/fragment_s_favourite_tutors" />
+
+    <fragment
+        android:id="@+id/nav_session"
+        android:name="com.example.takavi.ui.sessions.S_Sessions"
+        android:label="All Sessions"
+        tools:layout="@layout/fragment_s__sessions" />
+    <fragment
+        android:id="@+id/nav_pay_session_fee"
+        android:name="com.example.takavi.ui.paysessionfee.S_Pay_Session_Fee"
+        android:label="Pay Session Fee"
+        tools:layout="@layout/fragment_s__pay__session__fee" />
+    <fragment
+        android:id="@+id/nav_payment_history"
+        android:name="com.example.takavi.ui.paymenthistory.S_Payment_History"
+        android:label="Payment History"
+        tools:layout="@layout/fragment_s__payment__history" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.takavi.ui.contactus.S_Contact_US"
+        android:label="Get in Touch"
+        tools:layout="@layout/fragment_s__contact__u_s" />
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.example.takavi.ui.rewards.S_Rewards"
+        android:label="My Rewards"
+        tools:layout="@layout/fragment_s__rewards" />
+    <fragment
+        android:id="@+id/nav_faqs"
+        android:name="com.example.takavi.ui.faqs.S_Faqs"
+        android:label="FAQs"
+        tools:layout="@layout/fragment_tutor__faqs" />
+
+    <fragment
+        android:id="@+id/nav_marketeplace"
+        android:name="com.example.takavi.ui.marketeplace.S_Marketeplace"
+        android:label="Marketeplace"
+        tools:layout="@layout/fragment_s__marketeplace" />
+    <fragment
+        android:id="@+id/nav_book_Session"
+        android:name="com.example.takavi.ui.booksession.S_Book_A_Seesion"
+        android:label="Book a Session"
+        tools:layout="@layout/fragment_s__book__a__seesion" />
+
+
+    <fragment
+        android:id="@+id/nav_tutor_profile"
+        android:name="com.example.takavi.ui.tutorprofile.Tutor_Profile"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_tutor__profile" />
+
+    <fragment
+        android:id="@+id/nav_edit_tutor_profile"
+        android:name="com.example.takavi.ui.tutorprofilesettings.Tutor_Profile_Settings"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_tutor__profile__settings" />
+
+    <fragment
+        android:id="@+id/nav_tutor_session"
+        android:name="com.example.takavi.ui.tutorcreatesession.Tutor_Create_Session"
+        android:label="Session"
+        tools:layout="@layout/fragment_tutor__create__session" />
+
+    <fragment
+        android:id="@+id/nav_tutor_session_history"
+        android:name="com.example.takavi.ui.tutorsession.Tutor_Session"
+        android:label="Session History"
+        tools:layout="@layout/fragment_tutor__session" />
+    <fragment
+        android:id="@+id/nav_tutor_payment_history"
+        android:name="com.example.takavi.ui.tutorpaymenthistory.Tutor_Payment_History"
+        android:label="Paymenyt History"
+        tools:layout="@layout/fragment_tutor__payment__history" />
+
+    <fragment
+        android:id="@+id/nav_tutor_rewards"
+        android:name="com.example.takavi.ui.tutorrewards.Tutor_Rewards"
+        android:label="My Rewards"
+        tools:layout="@layout/fragment_tutor__rewards" />
+
+    <fragment
+        android:id="@+id/nav_tutor_calendar"
+        android:name="com.example.takavi.ui.tutorcalendar.Tutor_Calendar"
+        android:label="My Calendar"
+        tools:layout="@layout/fragment_tutor__calendar" />
+    <fragment
+        android:id="@+id/nav_tutor_contact_us"
+        android:name="com.example.takavi.ui.tutorgetintouch.Tutor_Get_In_Touch"
+        android:label="My Calendar"
+        tools:layout="@layout/fragment_tutor__get__in__touch" />
+
+</navigation>

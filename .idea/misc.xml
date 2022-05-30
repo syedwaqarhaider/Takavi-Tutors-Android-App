@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/btnbackground.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/profile_edittext_border.xml" value="0.201" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_s__about.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_s__how_it__works.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_s__tutors__search.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_tutor_home.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_s__book__a__seesion.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_s__sessions.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_tutor__create__session.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/fragment_tutor__get__in__touch.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/nav_header_main_tutor.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/session_row.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/tutor_search_row.xml" value="0.23072916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
